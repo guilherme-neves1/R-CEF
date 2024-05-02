@@ -12,5 +12,39 @@ barplot(t)
 minhaString <- "Olá Mundo!"
 print (minhaString)
 
+# Sem ponto e vírgula
+# Atribuição é uma seta para a esquerda (também pode ser usado o sinal de igual, mas é menos popular).
 
+# TIPOS DE DADOS
+# • Vetores;
+# • Listas;
+# • Matrizes;
+# • Arrays;
+# • Factors;
+# • Data Frames.
 
+# Vetores Atômicos
+
+# • Lógico → TRUE, FALSE
+v <- TRUE
+print(class(v))
+
+# • Numérico → 12.3, 5, 999
+v <- 23.5
+print(class(v))
+
+# • Inteiro → 2L, 34, 0L
+v <- 2L
+print(class(v))
+
+# • Complexo → 3 + 2i
+v <- 2 + 5i
+print(class(v))
+
+# • Caractere → 'a', "bom", "TRUE", '23.4'
+v <- "TRUE"
+print(class(v))
+
+# • Raw → 'Olá' é armazenado como 4f 6c c3 a1 
+v <- charToRaw("Olá")
+print(class(v))
