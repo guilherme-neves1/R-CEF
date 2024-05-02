@@ -93,6 +93,3 @@ print(v)
 
 a = c(5,7,2,9)
 print(ifelse(a %% 2 == 0, "par", "ímpar"))
-
-
-
