@@ -87,4 +87,3 @@ cat("2 - A classe de var_x é ",class(var_x),"\n")
 
 var_x <- 27L
 cat("3 - A classe de var_x é ",class(var_x),"\n")
-
