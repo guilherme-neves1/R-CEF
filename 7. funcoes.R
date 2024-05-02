@@ -93,4 +93,15 @@ print(avaliar(1))
 print(avaliar(-10))
 print(avaliar(0))
 
+print("")
+# RETORNOS MÚLTIPLOS
+multi_retorno <- function() {
+  meu_vetor <- c("azul", "amarelo", "verde")
+  return(meu_vetor)
+}
 
+v <- multi_retorno()
+
+print(v[1])
+print(v[2])
+print(v[3])
