@@ -56,5 +56,41 @@ while(i < 100 & v[i] > 15) {
 #   instruções
 # }
 
+# Exemplo 1
+v <- LETTERS[1:4]
+for (i in v) {
+  print(i)
+}
+
+# Exemplo 2
+v = rnorm(100, 20, 5)
+for(e in v) {
+  print(e)
+}
+
+# CONTROLE DE LAÇOS
+
+# BREAK
+v <- c("0lá","laço")
+cnt <- 2
+repeat {
+  print(v)
+  cnt <- cnt + 1
+  
+  if(cnt > 5) {
+    break
+  }
+}
+
+# NEXT
+v <- LETTERS[1:6]
+for ( i in v) {
+  if (i = = "D") {
+    next
+  }
+  print(i)
+}
+
+
 
 
